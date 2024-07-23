@@ -48,3 +48,11 @@ class HomeForm(HomeFormTemplate):
     self.name_box.text = ""
     self.email_box.text = ""
     self.feedback_box.text = ""
+
+  def userhba_show(self, **event_args):
+    """This method is called when the TextBox is shown on the screen"""
+    pass
+
+  def userhba_pressed_enter(self, **event_args):
+    """This method is called when the user presses Enter in this text box"""
+    pass
